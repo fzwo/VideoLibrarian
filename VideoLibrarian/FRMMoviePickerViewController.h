@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FRMMoviePickerViewController.h
 //  VideoLibrarian
 //
 //  Created by Friedrich Markgraf on 25.06.16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface FRMMoviePickerViewController : UITableViewController
 
 
 @end

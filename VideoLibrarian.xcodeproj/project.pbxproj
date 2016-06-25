@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		1F4ACECA1D1E937900C81B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACEC91D1E937900C81B43 /* main.m */; };
 		1F4ACECD1D1E937900C81B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACECC1D1E937900C81B43 /* AppDelegate.m */; };
-		1F4ACED01D1E937900C81B43 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACECF1D1E937900C81B43 /* FirstViewController.m */; };
-		1F4ACED31D1E937900C81B43 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACED21D1E937900C81B43 /* SecondViewController.m */; };
+		1F4ACED01D1E937900C81B43 /* FRMMoviePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACECF1D1E937900C81B43 /* FRMMoviePickerViewController.m */; };
+		1F4ACED31D1E937900C81B43 /* FRMCameraRollImporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACED21D1E937900C81B43 /* FRMCameraRollImporterViewController.m */; };
 		1F4ACED61D1E937900C81B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4ACED41D1E937900C81B43 /* Main.storyboard */; };
 		1F4ACED81D1E937900C81B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4ACED71D1E937900C81B43 /* Assets.xcassets */; };
 		1F4ACEDB1D1E937900C81B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4ACED91D1E937900C81B43 /* LaunchScreen.storyboard */; };
 		1F4ACEE61D1E937900C81B43 /* VideoLibrarianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ACEE51D1E937900C81B43 /* VideoLibrarianTests.m */; };
+		1FA0A2051D1EC23300ACD6DB /* FRMMediaItemExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0A2041D1EC23300ACD6DB /* FRMMediaItemExporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +33,10 @@
 		1F4ACEC91D1E937900C81B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F4ACECB1D1E937900C81B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F4ACECC1D1E937900C81B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F4ACECE1D1E937900C81B43 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		1F4ACECF1D1E937900C81B43 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		1F4ACED11D1E937900C81B43 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1F4ACED21D1E937900C81B43 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1F4ACECE1D1E937900C81B43 /* FRMMoviePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRMMoviePickerViewController.h; sourceTree = "<group>"; };
+		1F4ACECF1D1E937900C81B43 /* FRMMoviePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRMMoviePickerViewController.m; sourceTree = "<group>"; };
+		1F4ACED11D1E937900C81B43 /* FRMCameraRollImporterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRMCameraRollImporterViewController.h; sourceTree = "<group>"; };
+		1F4ACED21D1E937900C81B43 /* FRMCameraRollImporterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRMCameraRollImporterViewController.m; sourceTree = "<group>"; };
 		1F4ACED51D1E937900C81B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F4ACED71D1E937900C81B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4ACEDA1D1E937900C81B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +44,8 @@
 		1F4ACEE11D1E937900C81B43 /* VideoLibrarianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoLibrarianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4ACEE51D1E937900C81B43 /* VideoLibrarianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoLibrarianTests.m; sourceTree = "<group>"; };
 		1F4ACEE71D1E937900C81B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA0A2031D1EC23300ACD6DB /* FRMMediaItemExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMMediaItemExporter.h; sourceTree = "<group>"; };
+		1FA0A2041D1EC23300ACD6DB /* FRMMediaItemExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRMMediaItemExporter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +89,12 @@
 			children = (
 				1F4ACECB1D1E937900C81B43 /* AppDelegate.h */,
 				1F4ACECC1D1E937900C81B43 /* AppDelegate.m */,
-				1F4ACECE1D1E937900C81B43 /* FirstViewController.h */,
-				1F4ACECF1D1E937900C81B43 /* FirstViewController.m */,
-				1F4ACED11D1E937900C81B43 /* SecondViewController.h */,
-				1F4ACED21D1E937900C81B43 /* SecondViewController.m */,
+				1F4ACECE1D1E937900C81B43 /* FRMMoviePickerViewController.h */,
+				1F4ACECF1D1E937900C81B43 /* FRMMoviePickerViewController.m */,
+				1F4ACED11D1E937900C81B43 /* FRMCameraRollImporterViewController.h */,
+				1F4ACED21D1E937900C81B43 /* FRMCameraRollImporterViewController.m */,
+				1FA0A2031D1EC23300ACD6DB /* FRMMediaItemExporter.h */,
+				1FA0A2041D1EC23300ACD6DB /* FRMMediaItemExporter.m */,
 				1F4ACED41D1E937900C81B43 /* Main.storyboard */,
 				1F4ACED71D1E937900C81B43 /* Assets.xcassets */,
 				1F4ACED91D1E937900C81B43 /* LaunchScreen.storyboard */,
@@ -165,6 +170,7 @@
 				TargetAttributes = {
 					1F4ACEC41D1E937900C81B43 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XTS3GNBS39;
 					};
 					1F4ACEE01D1E937900C81B43 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -216,10 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F4ACED31D1E937900C81B43 /* SecondViewController.m in Sources */,
+				1F4ACED31D1E937900C81B43 /* FRMCameraRollImporterViewController.m in Sources */,
 				1F4ACECD1D1E937900C81B43 /* AppDelegate.m in Sources */,
-				1F4ACED01D1E937900C81B43 /* FirstViewController.m in Sources */,
+				1F4ACED01D1E937900C81B43 /* FRMMoviePickerViewController.m in Sources */,
 				1F4ACECA1D1E937900C81B43 /* main.m in Sources */,
+				1FA0A2051D1EC23300ACD6DB /* FRMMediaItemExporter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VideoLibrarian/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.friedrichmarkgraf.VideoLibrarian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -358,10 +368,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VideoLibrarian/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.friedrichmarkgraf.VideoLibrarian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -408,6 +421,7 @@
 				1F4ACEEC1D1E937900C81B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F4ACEED1D1E937900C81B43 /* Build configuration list for PBXNativeTarget "VideoLibrarianTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +430,7 @@
 				1F4ACEEF1D1E937900C81B43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
